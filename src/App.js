@@ -15,7 +15,7 @@ function App() {
         <Header title="TextWrap" />
         <Routes>
 
-          <Route exact path='/' Component={Home} />
+          <Route path="/" exact component={Home} />
           <Route path='/about' Component={About} />
           <Route path='/contact' Component={Contact} />
 
