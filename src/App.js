@@ -11,8 +11,8 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
-        <Header title="TextWrap"/>
+      <BrowserRouter >
+        <Header title="TextWrap" />
         <Routes>
 
           <Route exact path='/' Component={Home} />
