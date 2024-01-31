@@ -2,9 +2,10 @@
 import './App.css';
 import Header from './compnents/header';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from './Pages/Home';
+
 import About from './Pages/About';
 import Contact from './Pages/Contact';
+import Home from './Pages/Home'
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
         <Header title="TextWrap" />
         <Routes>
 
-          <Route path="/" exact component={Home} />
+          <Route path="/" exact Component={Home} />
           <Route path='/about' Component={About} />
           <Route path='/contact' Component={Contact} />
 
